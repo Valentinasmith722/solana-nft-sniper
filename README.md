@@ -1,21 +1,36 @@
 # Solana Nft Sniper
 
-Snipe undervalued NFTs on Solana. Floor price alerts, rarity analysis, instant buy on Magic Eden and Tensor.
+> **Status:** ✅ Functional prototype | **License:** MIT | **Stack:** TypeScript + Hono
 
-## Status
-🚧 **In Development** — Core features being built. Star this repo to follow progress.
+Solana Nft Sniper for the Solana ecosystem.
+
+## Quick Start
+
+```bash
+git clone https://github.com/Valentinasmith722/solana-nft-sniper.git
+cd solana-nft-sniper
+bun install
+bun run src/index.ts
+```
+
+## API Endpoints
+
+Check the root endpoint `/` for available routes.
 
 ## Roadmap
-- [ ] Core functionality
-- [ ] Tests and documentation
-- [ ] Beta release
-- [ ] Community feedback
-- [ ] v1.0 launch
+
+- [x] Core API structure
+- [ ] On-chain data integration (Helius/QuickNode)
+- [ ] Real-time WebSocket feeds
+- [ ] Analytics dashboard
+- [ ] Mobile app
 
 ## Support
-This project is 100% free and open source. If it provides value, consider supporting continued development.
+
+This project is 100% free and open source.
 
 **Solana (USDT):** `BKjS4agVRowFGqUuWHEKZerk3dCS52V1n4NdWaeNTo8E`
 
 ## License
+
 MIT — Build freely, earn passively.
